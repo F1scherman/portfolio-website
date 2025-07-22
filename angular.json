@@ -15,9 +15,7 @@
           "options": {
             "baseHref": "/portfolio-website/",
             "browser": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
@@ -26,7 +24,9 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "public/Fira_Code/fira_code.css",
+              "node_modules/@catppuccin/palette/css/catppuccin.css"
             ],
             "outputPath": "docs/",
             "server": "src/main.server.ts",
@@ -77,10 +77,7 @@
         "test": {
           "builder": "@angular/build:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               {
@@ -88,9 +85,7 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.css"
-            ]
+            "styles": ["src/styles.css"]
           }
         },
         "deploy": {
