@@ -1,1 +1,8 @@
-<button (click)="clicked.emit()">{{text}}</button>
+<a
+    [routerLink]="directory"
+><button
+  [style.background-color]="selected ? 'var(--ctp-macchiato-base)' : 'var(--ctp-macchiato-mantle)'"
+>
+  {{text}}
+</button>
+</a>

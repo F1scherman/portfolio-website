@@ -1,12 +1,14 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'top-bar-button',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './top-bar-button.html',
   styleUrl: './top-bar-button.css',
 })
 export class TopBarButton {
   @Input() text: string = '';
-  @Output() clicked = new EventEmitter<void>();
+  @Input() selected: boolean = false;
+  @Input() directory: string = '/';
 }

@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-import { TopBarButton } from './common/top-bar-button/top-bar-button';
-import { TopBar } from './common/top-bar/top-bar';
+import { RouterOutlet } from "@angular/router";
 
 @Component({
   selector: 'app-root',
-  imports: [TopBar],
+  imports: [RouterOutlet],
   templateUrl: './app.html',
 })
 export class App {
-  protected title = 'portfolio-site';
 }

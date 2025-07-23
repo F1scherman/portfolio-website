@@ -1,16 +1,27 @@
 <div class="top-bar">
-  <top-bar-button text="Home" (clicked)="homeButtonClicked()"></top-bar-button>
+  <top-bar-button
+    text="Home"
+    [selected]="page==='Home'"
+    directory="/home"
+  ></top-bar-button>
   <top-bar-button
     text="Career"
-    (clicked)="careerButtonClicked()"
+    [selected]="page==='Career'"
+    directory="/career"
   ></top-bar-button>
   <top-bar-button
     text="Education"
-    (clicked)="educationButtonClicked()"
+    [selected]="page==='Education'"
+    directory="/education"
   ></top-bar-button>
   <top-bar-button
     text="Hobbies"
-    (clicked)="hobbiesButtonClicked()"
+    [selected]="page==='Hobbies'"
+    directory="/hobbies"
   ></top-bar-button>
-  <top-bar-button text="Blog" (clicked)="blogButtonClicked()"></top-bar-button>
+  <top-bar-button
+    text="Blog"
+    [selected]="page==='Blog'"
+    directory="/blog"
+  ></top-bar-button>
 </div>
