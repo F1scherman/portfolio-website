@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { TopBar } from '../common/top-bar/top-bar';
+import { Page } from '../common/page/page';
 
 @Component({
   selector: 'app-notfound',
-  imports: [TopBar],
+  imports: [Page],
   templateUrl: './notfound.html',
   styleUrl: './notfound.css',
 })

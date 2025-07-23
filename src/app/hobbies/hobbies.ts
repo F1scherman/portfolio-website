@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { TopBar } from '../common/top-bar/top-bar';
+import { Page } from '../common/page/page';
 
 @Component({
   selector: 'app-hobbies',
-  imports: [TopBar],
+  imports: [Page],
   templateUrl: './hobbies.html',
   styleUrl: './hobbies.css',
 })

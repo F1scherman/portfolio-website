@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { TopBar } from '../common/top-bar/top-bar';
+import { Page } from '../common/page/page';
 
 @Component({
   selector: 'app-career',
-  imports: [TopBar],
+  imports: [Page],
   templateUrl: './career.html',
   styleUrl: './career.css',
 })
