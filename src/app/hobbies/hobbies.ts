@@ -5,8 +5,6 @@ import { TopBar } from '../common/top-bar/top-bar';
   selector: 'app-hobbies',
   imports: [TopBar],
   templateUrl: './hobbies.html',
-  styleUrl: './hobbies.css'
+  styleUrl: './hobbies.css',
 })
-export class Hobbies {
-
-}
+export class Hobbies {}

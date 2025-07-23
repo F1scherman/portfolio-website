@@ -5,8 +5,6 @@ import { TopBar } from '../common/top-bar/top-bar';
   selector: 'app-education',
   imports: [TopBar],
   templateUrl: './education.html',
-  styleUrl: './education.css'
+  styleUrl: './education.css',
 })
-export class Education {
-
-}
+export class Education {}

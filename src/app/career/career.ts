@@ -5,8 +5,6 @@ import { TopBar } from '../common/top-bar/top-bar';
   selector: 'app-career',
   imports: [TopBar],
   templateUrl: './career.html',
-  styleUrl: './career.css'
+  styleUrl: './career.css',
 })
-export class Career {
-
-}
+export class Career {}

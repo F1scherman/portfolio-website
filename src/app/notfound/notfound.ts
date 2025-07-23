@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import { TopBar } from '../common/top-bar/top-bar';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-notfound',
   imports: [TopBar],
-  templateUrl: './home.html',
-  styleUrl: './home.css',
+  templateUrl: './notfound.html',
+  styleUrl: './notfound.css',
 })
-export class Home {}
+export class Notfound {}

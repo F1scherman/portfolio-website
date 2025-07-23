@@ -4,6 +4,7 @@ import { Career } from './career/career';
 import { Education } from './education/education';
 import { Hobbies } from './hobbies/hobbies';
 import { Blog } from './blog/blog';
+import { Notfound } from './notfound/notfound';
 
 export const routes: Routes = [
   {
@@ -35,5 +36,10 @@ export const routes: Routes = [
     path: 'blog',
     title: 'Brayden Jonsson - Blog',
     component: Blog,
+  },
+  {
+    path: '**',
+    title: 'Brayden Jonsson - 404',
+    component: Notfound,
   },
 ];

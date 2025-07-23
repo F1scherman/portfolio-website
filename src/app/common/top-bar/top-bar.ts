@@ -8,6 +8,6 @@ import { TopBarButton } from '../top-bar-button/top-bar-button';
   styleUrl: './top-bar.css',
 })
 export class TopBar {
-  @Input() page: 'Home' | 'Career' | 'Education' | 'Hobbies' | 'Blog' =
+  @Input() page: 'Home' | 'Career' | 'Education' | 'Hobbies' | 'Blog' | 'None' =
     'Home';
 }

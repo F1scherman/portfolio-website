@@ -5,8 +5,6 @@ import { TopBar } from '../common/top-bar/top-bar';
   selector: 'app-blog',
   imports: [TopBar],
   templateUrl: './blog.html',
-  styleUrl: './blog.css'
+  styleUrl: './blog.css',
 })
-export class Blog {
-
-}
+export class Blog {}
