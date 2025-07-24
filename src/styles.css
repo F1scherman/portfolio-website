@@ -4,7 +4,14 @@ html {
 body {
   margin: 16px;
 }
-p, h1, h2, h3, h4, h5, button, .text {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+.text {
   font-feature-settings: "calt" 1; /* Enable ligatures for IE 10+, Edge */
   text-rendering: optimizeLegibility; /* Force ligatures for Webkit, Blink, Gecko */
   color: var(--ctp-macchiato-text);
