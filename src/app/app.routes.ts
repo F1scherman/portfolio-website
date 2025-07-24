@@ -18,6 +18,11 @@ export const routes: Routes = [
     component: Home,
   },
   {
+    path: 'index',
+    title: 'Brayden Jonsson - Home',
+    component: Home,
+  },
+  {
     path: 'career',
     title: 'Brayden Jonsson - Career',
     component: Career,
