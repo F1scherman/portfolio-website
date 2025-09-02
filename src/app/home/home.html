@@ -1,5 +1,5 @@
 <page page="Home">
-  <blog-section>
+  <blog-section [reversible]="false">
     <p>
       Welcome to Brayden Jonsson's website! I am a current Computer Science and
       Physics student at the University of Utah, class of '26, and I am also an
@@ -9,7 +9,7 @@
     </p>
     <img src="headshot.png" alt="A picture of Brayden Jonsson" width="300" />
   </blog-section>
-  <blog-section>
+  <blog-section [reversible]="true">
     <img
       src="ferris.png"
       alt="A picture of the Rust mascot, Ferris"
@@ -26,7 +26,7 @@
       that fits every scenario, but my favorite language right now is Rust.
     </p>
   </blog-section>
-  <blog-section>
+  <blog-section [reversible]="false">
     <p>
       For the most part, I'm studying physics for fun. I don't have any
       significant theory or career plan that incorporates these skills. Instead,

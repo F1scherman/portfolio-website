@@ -1,4 +1,5 @@
-.blog-section {
+.blog-section,
+.reversible-blog-section {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -6,4 +7,13 @@
   font-size: 20px;
   line-height: 1.5em;
   gap: 2em;
+}
+
+@media screen and (max-width: 600px) {
+  .reversible-blog-section {
+    flex-direction: column-reverse;
+  }
+  .blog-section {
+    flex-direction: column;
+  }
 }
