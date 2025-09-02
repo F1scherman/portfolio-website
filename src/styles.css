@@ -45,3 +45,6 @@ b {
   font-weight: inherit;
   color: #c33;
 }
+img {
+  border-radius: 16px;
+}
